@@ -1,0 +1,100 @@
+.panelbawah{
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    background-color: #006DB2;
+    width: 46%;
+    opacity: 0.8;
+    padding-bottom: 20px;;
+}
+
+.panelbawah h5, .panelbawah p{
+    display: block;
+    color: white;
+}
+
+.panelbawah h5 {
+    text-align: left;
+    margin-top: 30px;;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.panelbawah p {
+    text-align: left;
+    margin-left: 25px;
+    width: 95%;
+}
+.panelbawah input{
+    float: left;
+    margin-left: 25px;
+    width: 70%;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.panelbawah .count button{
+    color: white;
+    background-color: #FBA200;
+    text-decoration: none;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.panelbawah .close button{
+    background: none;
+    border: none;
+}
+
+@media (max-width:480px) {
+    .panelbawah{
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        background-color: #006DB2;
+        width: 100%;
+        opacity: 0.8;
+        padding-bottom: 20px;
+    }
+
+    .panelbawah h5 {
+        margin-top: 30px;;
+        margin-left: 30px;
+        font-size: 34px;
+
+    }
+
+    .panelbawah p {
+        font-size: 22.5px;
+        margin-left: 25px;
+        width: 95%;
+    }
+
+    .panelbawah input{
+        margin-left: 25px;
+        width: 90%;
+        font-size: 14px;
+        padding-left: 10px;
+        display: block;
+    }
+
+    .panelbawah .count button{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 25px;
+        margin-top: 18px;
+        width: 90%;
+    }
+}
+
+@media (min-width:481px) and (max-width: 960px){
+    .panelbawah{
+        position: fixed;
+        background-color: #006DB2;
+        width: 80%;
+        opacity: 0.8;
+        padding-bottom: 20px;;
+    } 
+}

@@ -1,0 +1,119 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.kontenisi{
+    position: relative;
+    display: block;
+    overflow-y: hidden;
+    background-color: #F2F2F2;
+}
+
+.kontenisi h3{
+   padding-top: 70px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontenisi .t2 .t2utama{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.kontenartikel{
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+}
+
+.kontenartikel .bagitiga{
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    border: 1px solid #ddd;
+    float: left;
+    width: 30%;
+    text-align: left;
+    padding: 15px;
+    background-color: #F2F2F2;
+}
+
+.kontenartikel .bagitiga h4, .kontenartikel .bagitiga p{
+    margin: 5px;
+}
+
+.kontenartikel .bagitiga p{
+    font-size: 12.5px;
+}
+.kontenartikel .bagitiga p .p1utama{
+    display: block;
+}
+
+ @media (max-width:480px) {
+    .kontenisi h3{
+        padding-top: 60px;
+     }
+
+     .kontenisi .t2{
+        font-size: 17px;
+        margin-bottom: 10px;
+     }
+
+     .kontenisi .t2 .t2cabang{
+        font-size: 17px;
+        display: block;
+    }
+    .kontenisi .t2 .t2utama{
+        font-size: 17px;
+        display: inline;
+    }
+
+    .kontenartikel .bagitiga{
+        margin-left: 10%;
+        margin-bottom: 10%;
+        float: left;
+        width: 79%;
+        
+    }
+
+    .kontenartikel .bagitiga p .p1utama{
+        display: inline-block;
+    }
+ }
+
+ @media (min-width:481px) and (max-width: 960px){
+    .kontenisi .t2{
+        font-size: 17px;
+        margin-bottom: 10px;
+     }
+
+     .kontenisi .t2 .t2cabang{
+        font-size: 17px;
+        display: inline;
+    }
+
+    .kontenisi .t2 .t2utama{
+        font-size: 17px;
+        display: block;
+    }
+
+    .kontenisi .bagitiga .p1utama, .kontenisi .bagitiga p {
+        display: inline;
+    }
+
+    .kontenartikel .bagitiga{
+        margin-left: 4.5%;
+        margin-bottom: 5%;
+        float: left;
+        width: 43.5%;
+        
+    }
+
+    .kontenartikel .bagitiga p .p1utama{
+        display: inline-block;
+    }
+ 
+ }
